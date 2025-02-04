@@ -1,0 +1,28 @@
+.navbarbg {
+  height: 60px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.navImg {
+  height: 80%;
+  width: 40%;
+}
+.navtitle {
+  font-family: 30px;
+  color: orange;
+  font-family: "serif";
+}
+@media screen and (min-width: 500px) {
+  .navImg {
+    width: 25%;
+  }
+  .navtitle {
+    font-family: 40px;
+  }
+}
